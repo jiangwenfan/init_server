@@ -1,0 +1,20 @@
+local:
+1.配置yum源 epel-release
+2.安装基础工具 vim net-tools wget unzip
+3.关闭防火墙和selinux
+4.配置python3.8 和 java环境，pip源修改
+5.配置时区，设置时间，定时任务，定时更新时间
+6.安装screen，frpc,做内网22端口映射,开机自启动
+7.安装docker环境
+#8.部署cmdb自动采集脚本
+9.部署zabbix采集脚本
+
+vps:
+1.安装基础工具 vim net-tools wget unzip
+2.配置python3.8 和 java环境，pip源修改
+3.安装screen，frpc,做server,开机自启动
+4.安装docker环境
+5.安装nginx,mysql,redis,rabbitmq --docker
+6.部署zabbix服务端--docker
+
+
